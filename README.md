@@ -22,3 +22,7 @@ Takeaway :
   - Shallow comparisons, if no diff - then it will not re-render, including child which leads to the performance boost
   - We should not mutate array/object, always return that reflects a new state (spread operator)
 
+---
+#### Memo
+https://codesandbox.io/p/sandbox/memo-n7xdr3
+  - same as a pure component, but for the functional component

@@ -26,3 +26,10 @@ Takeaway :
 #### Memo
 https://codesandbox.io/p/sandbox/memo-n7xdr3
   - same as a pure component, but for the functional component
+
+---
+#### Refs
+
+https://codesandbox.io/p/sandbox/refs-w63tpl
+  - attached to a React element and used to interact with the underlying DOM
+  - Example : Focus 

@@ -32,4 +32,11 @@ https://codesandbox.io/p/sandbox/memo-n7xdr3
 
 https://codesandbox.io/p/sandbox/refs-w63tpl
   - attached to a React element and used to interact with the underlying DOM
-  - Example : Focus 
+  - Example: Focus
+
+---
+#### Portals
+https://codesandbox.io/p/sandbox/portals-t2y3x6
+  - way to render children components at a different place in the DOM (Document Object Model) hierarchy than the parent component (root)
+  - we can apply different CSS (root vs portal-root)
+

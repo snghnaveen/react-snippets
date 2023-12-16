@@ -45,3 +45,9 @@ https://codesandbox.io/p/sandbox/error-boundary-jkfcg8
   - the class component that implements either one or both lifecycle methods `getDerivedStateFromError` or `componentDidCatch` becomes an error boundary.
   - do not catch errors in the event handler, use try catch in case of an event handler.
 
+---
+####  HTTP Request 
+https://codesandbox.io/p/sandbox/request-qg54cs
+  - axios for request
+  - redux axios middleware when using with redux
+  - formik for building form (validation)

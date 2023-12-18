@@ -46,6 +46,11 @@ https://codesandbox.io/p/sandbox/error-boundary-jkfcg8
   - do not catch errors in the event handler, use try catch in case of an event handler.
 
 ---
+#### Context
+https://codesandbox.io/p/sandbox/context-7dxg6v
+  - provides a way to pass data through the component tree without passing props at every level
+  - example: username, theme preference. 
+---
 ####  HTTP Request 
 https://codesandbox.io/p/sandbox/request-qg54cs
   - axios for request

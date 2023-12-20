@@ -56,7 +56,11 @@ https://codesandbox.io/p/sandbox/request-qg54cs
   - axios for request
   - redux axios middleware when using with redux
   - formik for building form (validation)
-
+---
+####  useEffect
+https://codesandbox.io/p/sandbox/useeffect-ww8q4p
+  - similar to `componentDidMount` and `componentWillUnmount`
+  - second argument will be dependencies 
 ---
 #### useContext
 https://codesandbox.io/p/sandbox/usecontext-7r7d9x

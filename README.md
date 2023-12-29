@@ -46,6 +46,13 @@ https://codesandbox.io/p/sandbox/error-boundary-jkfcg8
   - do not catch errors in the event handler, use try catch in case of an event handler.
 
 ---
+### Higher order component (hoc)
+https://codesandbox.io/p/sandbox/higher-order-component-hoc-2774zg
+  - used to share common functionality between components
+  - pattern where function takes a component as an argument and returns a new component
+  - 
+
+---
 #### Context
 https://codesandbox.io/p/sandbox/context-7dxg6v
   - provides a way to pass data through the component tree without passing props at every level

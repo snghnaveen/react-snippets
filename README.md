@@ -46,11 +46,10 @@ https://codesandbox.io/p/sandbox/error-boundary-jkfcg8
   - do not catch errors in the event handler, use try catch in case of an event handler.
 
 ---
-### Higher order component (hoc)
+#### Higher order component (hoc)
 https://codesandbox.io/p/sandbox/higher-order-component-hoc-2774zg
   - used to share common functionality between components
   - pattern where function takes a component as an argument and returns a new component
-  - 
 
 ---
 #### Context
@@ -67,7 +66,20 @@ https://codesandbox.io/p/sandbox/request-qg54cs
 ####  useEffect
 https://codesandbox.io/p/sandbox/useeffect-ww8q4p
   - similar to `componentDidMount` and `componentWillUnmount`
-  - second argument will be dependencies 
+  - second argument will be dependencies
+  - 
 ---
 #### useContext
 https://codesandbox.io/p/sandbox/usecontext-7r7d9x
+
+---
+#### useReducer
+https://codesandbox.io/p/sandbox/usereducer-58k9s3
+  - [reducer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+  - | **Case**                  | **useState**      | **useReducer**         |
+    |---------------------------|-------------------|------------------------|
+    | type                      | num, bool, string | object, array          |
+    | num of state transitions  | 1 or 2            | too many               |
+    | business logic            | no business logic | complex business logic |
+    | related state transitions | no                | yes                    |
+    | use                       | local             | global                 |

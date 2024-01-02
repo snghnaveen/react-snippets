@@ -67,7 +67,7 @@ https://codesandbox.io/p/sandbox/request-qg54cs
 https://codesandbox.io/p/sandbox/useeffect-ww8q4p
   - similar to `componentDidMount` and `componentWillUnmount`
   - second argument will be dependencies
-  - 
+
 ---
 #### useContext
 https://codesandbox.io/p/sandbox/usecontext-7r7d9x
@@ -83,3 +83,17 @@ https://codesandbox.io/p/sandbox/usereducer-58k9s3
     | business logic            | no business logic | complex business logic |
     | related state transitions | no                | yes                    |
     | use                       | local             | global                 |
+
+
+---
+#### useCallback
+https://codesandbox.io/p/sandbox/usecallback-rgj34d
+  -  used for optimization
+
+---
+#### useMemo
+https://codesandbox.io/p/sandbox/usememo-w44w54
+  - Used for performance optimization
+  - if want to cache a function - use callback, if want to cache a result of a function - use memo
+
+

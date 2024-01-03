@@ -96,4 +96,8 @@ https://codesandbox.io/p/sandbox/usememo-w44w54
   - Used for performance optimization
   - if want to cache a function - use callback, if want to cache a result of a function - use memo
 
-
+---
+#### useRef
+https://codesandbox.io/p/sandbox/useref-hpgc8h
+  - same as refs
+    

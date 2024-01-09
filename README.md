@@ -233,7 +233,41 @@ const CompA = (props) => {
 --- 
 
 <details>
-<summary> </summary>
+<summary> React.Fragment </summary>
+  
+- return multiple elements without using `<div></div>`
+  ```jsx
+  return (
+    <React.Fragment>
+      <ChildA />
+      <ChildB />
+    </React.Fragment>
+  )
+  ```
+  or
+  ```jsx
+  return (
+    <>
+      <ChildA />
+      <ChildB />
+    </>
+  )
+  ```
   
 </details>
+--- 
+
+<details>
+<summary> TODO </summary>
+  - React.lazy with example (suspense)
+
+  <details>
+    <summary>  </summary>
+      
+    </details>
+
+</details>
+
+
+
 

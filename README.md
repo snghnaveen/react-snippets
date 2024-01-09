@@ -100,4 +100,20 @@ https://codesandbox.io/p/sandbox/usememo-w44w54
 #### useRef
 https://codesandbox.io/p/sandbox/useref-hpgc8h
   - same as refs
-    
+
+---
+####  Controlled and Uncontrolled Components
+  - Controlled : state is managed by react
+    ```jsx
+    const handleChange = (event) => {
+      setValue(event.target.value);
+    };
+    ```
+  - Uncontrolled : state is managed by dom
+    ```jsx
+      const handleClick = () => {
+      alert(`Input value: ${inputRef.current.value}`);
+      };
+    ```
+     
+
